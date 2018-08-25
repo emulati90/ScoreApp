@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/Black"
+    tools:context=".MainActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:layout_marginTop="30dp">
+
+        <TextView
+            android:id="@+id/epl"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="onEpl"
+            android:gravity="center"
+            android:layout_margin="5dp"
+            android:drawableTop="@drawable/epl1" />
+
+        <TextView
+            android:id="@+id/kenya"
+            android:layout_margin="5dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/epl"
+            android:drawableTop="@drawable/kpl"
+            android:gravity="center"
+            android:onClick="kenya"
+            android:layout_toEndOf="@id/epl" />
+
+        <TextView
+            android:id="@+id/league1"
+            android:layout_margin="5dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/epl"
+            android:drawableTop="@drawable/league1"
+            android:gravity="center"
+            android:onClick="french" />
+
+        <TextView
+            android:id="@+id/laliga"
+            android:layout_margin="5dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/league1"
+            android:layout_below="@id/kenya"
+            android:drawableTop="@drawable/laliga"
+            android:onClick="laLiga"
+            android:gravity="center"
+            android:layout_toEndOf="@id/league1" />
+
+        <TextView
+            android:id="@+id/germany"
+            android:layout_margin="5dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/league1"
+            android:drawableTop="@drawable/bundes"
+            android:gravity="center"
+            android:onClick="bundesLeague"/>
+
+        <TextView
+            android:id="@+id/wcup"
+            android:layout_margin="5dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/laliga"
+            android:layout_toRightOf="@id/germany"
+            android:drawableTop="@drawable/wcup22"
+            android:gravity="center"
+            android:onClick="wcup"
+            android:layout_toEndOf="@id/germany" />
+
+    </RelativeLayout>
+
+</ScrollView>

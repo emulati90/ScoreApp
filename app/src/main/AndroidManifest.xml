@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.sarahemmanuels.scoreapp">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ball1"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/ball1"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".EplActivity"
+            android:label="English Premier League" />
+        <activity
+            android:name=".KenyaActivity"
+            android:label="Kenya Premier League" />
+        <activity
+            android:name=".FrenchActivity"
+            android:label="French League" />
+        <activity
+            android:name=".LaligaActivity"
+            android:label="La Liga" />
+        <activity
+            android:name=".BundesLeagueActivity"
+            android:label="Bundes League"/>
+        <activity
+            android:name=".WcupActivity"
+            android:label="World Cup"/>
+    </application>
+
+</manifest>

@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Soccer Score App</string>
+    <string name="goal">GOAL</string>
+    <string name="teama">HOME TEAM</string>
+    <string name="teamb">AWAY TEAM</string>
+    <string name="corners">CORNERS</string>
+    <string name="fauls">FOULS</string>
+    <string name="shots_on_target">SHOTS-ON-TARGET</string>
+    <string name="shots_off_target">SHOTS-OFF-TARGET</string>
+    <string name="off_sides">OFF-SIDES</string>
+    <string name="penalt_kicks">PENALT KICKS</string>
+    <string name="possession">POSSESSION</string>
+    <string name="_0">0</string>
+    <string name="yellow_cards">YELLOW CARDS</string>
+    <string name="red_cards">RED CARDS</string>
+    <string name="reset">Reset</string>
+    <string name="time">Time</string>
+</resources>
